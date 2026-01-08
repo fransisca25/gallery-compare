@@ -1,0 +1,33 @@
+.page-title {
+  text-align: center;
+  font-size: 36px;
+  color: #0b6fa4;
+  margin-bottom: 48px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  gap: 32px;
+
+  justify-content: center; /* ⬅️ INI KUNCINYA */
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.gallery-grid img {
+  width: 250px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.gallery-grid img:hover {
+  opacity: 0.7;
+}
+
+.second-row-img {
+  margin-left: 150px;
+}

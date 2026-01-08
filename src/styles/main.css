@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.main-btn {
+  background-color: #128cff;
+  color: white;
+  border: none;
+  padding: 18px 36px;
+  font-size: 18px;
+  border-radius: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.15s;
+}
+
+.white-btn {
+  background-color: white;
+  color: #128cff;
+  border: 2px solid #128cff;
+  padding: 18px 36px;
+  font-size: 18px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.main-btn:hover {
+  background-color: #0f7ae5;
+}
+
+.main-btn:active {
+  background-color: #4697e9;
+}
+
+.white-btn:hover {
+  background-color: #bfbfbf;
+}
+
+.white-btn:active {
+  background-color: #fbfbfb;
+}
+
+.arrow {
+  font-size: 22px;
+}
+
+.bottom-icons {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: flex;
+  gap: 18px;
+  font-size: 22px;
+  
+  padding: 5px;
+}
+
+.home-btn, 
+.gear-btn, 
+.arrow-btn {
+  color: #0b447d;
+  border: none;
+  width: 20px;
+  background-color: white;
+}
